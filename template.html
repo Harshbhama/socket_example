@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charest="utf-8" />
+        <title>Hello world!</title>
+    </head>
+    <body>
+        <h1>User List</h1>
+        <img></img>
+        <ul>
+            {{#each users}}
+            <h1 style="color:blue;">This is a Blue Heading</h1>
+            <li style="padding-left: 100px;"> <p style="color:green">Hello</p>Name: {{this.name}}</li>
+            <li>Age: {{this.age}}</li>
+            <br>
+        {{/each}}
+        </ul>
+    </body>
+</html>
